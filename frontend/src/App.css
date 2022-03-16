@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  margin-left: 1rem;
+  padding: 0.3rem;
+}
+
+nav button {
+  background-color: inherit;
+  border: none;
+  color: blue;
+}
+
+form {
+  width: 60%;
+  margin: 0 auto;
+  background-color: white;
+  margin-bottom: 1rem;
+  color: black;
+  border-radius: 14px;
+  padding: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  margin-bottom: 0.25rem;
+  display: block;
+  font-weight: 600;
+}
+
+.form-group input {
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.form-group select {
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+form button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+}
+
+.App {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+small {
+  color: red;
+}
+
+.close-button {
+  color: red;
+  font-weight: 600;
+  padding-top: 0.7rem;
+  font-size: larger;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+  margin: 0 auto;
+}
+
+.result-div {
+  text-align: left;
+  padding: 1rem;
+}
+
+.result-div h4 {
+  text-decoration: underline;
+}
+
+.party-list {
+  font-weight: 600;
+  color: black;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.close-button:hover {
+  cursor: pointer;
+}
